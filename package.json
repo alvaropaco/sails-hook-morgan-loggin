@@ -1,0 +1,44 @@
+{
+  "name": "sails-hook-morgan-loggin",
+  "version": "1.0.0",
+  "description": "A simple logger to Sails project. This implementation generate files for all requests to your API. Generate daily log files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/runner",
+    "test-all": "node tests/runner all",
+    "autotest": "mocha --watch --reporter spec tests/**/*Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvaro-paco/sails-hook-morgan-loggin.git"
+  },
+  "author": "Alvaro Paçó <alvaropaconeto@gmail.com> (https://br.linkedin.com/in/alvaro-paçó-47a93678)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvaro-paco/sails-hook-morgan-loggin/issues"
+  },
+  "homepage": "https://github.com/alvaro-paco/sails-hook-morgan-loggin",
+  "sails": {
+    "isHook": true
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "sails-hook",
+    "morgan",
+    "log-file",
+    "access-log"
+  ],
+  "dependencies": {
+    "morgan": "^1.5.0",
+    "file-stream-rotator": "^0.0.6"
+  },
+  "devDependencies": {
+    "glob": "^4.3.2",
+    "mocha": "^2.1.0",
+    "sails": "~0.11.0-rc"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
