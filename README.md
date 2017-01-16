@@ -19,6 +19,6 @@ Just Lift your application and it starts loggin all request in a daily file stor
 
 ### Configuration
 
-Tou can disale the logger setting the "silently" boolean variable at `sails.config.log.silently` to `false`.
+Make sure that you <b>have</b> a directory called <b>"log"</b> on root of your Sails project.
 
-Enjoy!
+You can disale the logger setting the "silently" boolean variable at `sails.config.log.silently` to `false`.
