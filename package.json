@@ -1,6 +1,6 @@
 {
   "name": "sails-hook-morgan-loggin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "patch": "1.1.0",
   "description": "A simple logger to Sails project. This implementation generate files for all requests to your API. Generate daily log files.",
   "main": "index.js",
