@@ -63,7 +63,7 @@ module.exports = function(sails) {
       // Getting settings from log config
       loggerSettings = sails.config['log'];
       // Log folder
-      var logDirectory = path.join(__dirname, '../../../log')
+      var logDirectory = path.join(__dirname, '../../log')
 
       // ensure log directory exists
       fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory)
